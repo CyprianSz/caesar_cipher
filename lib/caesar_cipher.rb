@@ -17,5 +17,5 @@ def ciphering(message,key)
 end
 
 start_time = Time.now
-p ciphering("good night and good luck",3)
+p ciphering("elo melo pierwsze ELO",29)
 p "Time elapsed: #{(Time.now - start_time)*1000} milliseconds"

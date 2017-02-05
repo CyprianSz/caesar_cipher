@@ -25,4 +25,8 @@ describe "#ciphering" do
 	it "is case sensitive for each word" do
 		expect(ciphering("heLLo gooD LuCK", 5)).to eql("mjQQt lttI QzHP")
 	end
+
+	it "cipher properly for big key numbers" do
+		expect(ciphering("elo melo pierwsze ELO", 29)).to eql("hor phor slhuzvch HOR")
+	end
 end
